@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex Pokemon</title>
+    <link rel="stylesheet" href="styles/resetter.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/pokemon-hollow"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <img src="asests/pokemon-logo.png" alt="pokemon-logo" />
+        </div>
+      </nav>
+      <div class="header-logo">
+        <div class="flex-block">
+          <img src="asests/pngimg.com - pokemon_logo_PNG10.png" alt="" />
+        </div>
+        <div class="category">
+          <div id="pokemon-category" class="category-column"></div>
+        </div>
+      </div>
+    </header>
+    <div class="divider"></div>
+    <div class="columnBox">
+      <span id="loading" class="loader" style="display: none"></span>
+      <div id="pokemonCard" class="main-pokemon"></div>
+    </div>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
